@@ -1,5 +1,6 @@
 body {
-  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -37,3 +38,7 @@ p {
     max-width: none;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
