@@ -3,6 +3,10 @@ export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        primary: 'Jost',
+        secondary: 'Sen',
+      },
       colors: {
         transparent: 'transparent',
         'bg-100': '#3B5260',
