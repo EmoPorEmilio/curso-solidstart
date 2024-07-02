@@ -1,5 +1,4 @@
 body {
-  font-family: Jost;
   background-color: #3b5260;
 }
 main {
@@ -36,3 +35,8 @@ p {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --font-jost: 'Jost';
+  --font-sen: 'Sen';
+}

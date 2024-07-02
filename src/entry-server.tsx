@@ -11,7 +11,12 @@ export default createHandler(() => (
           <link rel='icon' href='/favicon.ico' />
           <link rel='preconnect' href='https://fonts.googleapis.com' />
           <link
-            href='https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap'
+            rel='preconnect'
+            href='https://fonts.gstatic.com'
+            crossOrigin=''
+          />
+          <link
+            href='https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sen:wght@100..900&display=swap'
             rel='stylesheet'
           />
           {assets}

@@ -1,11 +1,13 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       fontFamily: {
-        primary: 'Jost',
-        secondary: 'Sen',
+        jost: 'var(--font-jost)',
+        sen: 'var(--font-sen)',
       },
       colors: {
         transparent: 'transparent',

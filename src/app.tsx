@@ -14,7 +14,6 @@ export default function App() {
           <div class='flex h-full bg-bg-100'>
             <LateralNav />
             <Suspense>{props.children}</Suspense>
-
             <LateralNav transparent={true} />
           </div>
         </main>
