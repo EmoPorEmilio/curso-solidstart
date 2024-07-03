@@ -14,7 +14,8 @@
     "solid-icons": "^1.1.0",
     "solid-js": "^1.8.17",
     "solid-mdx": "^0.0.7",
-    "vinxi": "^0.3.12"
+    "vinxi": "^0.3.12",
+    "proyecto-viviana-ui": "0.0.0"
   },
   "engines": {
     "node": ">=18"

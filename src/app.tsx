@@ -1,8 +1,7 @@
 import { Router } from '@solidjs/router';
 import { FileRoutes } from '@solidjs/start/router';
 import { Suspense } from 'solid-js';
-import Header from '~/components/Header';
-import LateralNav from '~/components/LateralNav';
+import { Header, LateralNav } from 'proyecto-viviana-ui';
 import './app.css';
 
 export default function App() {
