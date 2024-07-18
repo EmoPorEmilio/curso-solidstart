@@ -21,8 +21,8 @@ importers:
         specifier: ^3.7.1
         version: 3.7.1(@mdx-js/mdx@2.3.0)
       proyecto-viviana-ui:
-        specifier: 0.1.1
-        version: 0.1.1(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18)
+        specifier: 0.1.3
+        version: 0.1.3(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18)
       solid-icons:
         specifier: ^1.1.0
         version: 1.1.0(solid-js@1.8.18)
@@ -2610,8 +2610,8 @@ packages:
     resolution: {integrity: sha512-RXyHaACeqXeqAKGLDl68rQKbmObRsTIn4TYVUUug1KfS47YWCo5MacGITEryugIgZqORCvJWEk4l449POg5Txg==}
     engines: {node: '>=12.0.0'}
 
-  proyecto-viviana-ui@0.1.1:
-    resolution: {integrity: sha512-jTYzbAxQAJI9/OdCe1LbIKnNoMJJGrwj1Tadc4P5/ypyngkPRwMYfKJ2cUEN2liFxE6MPBZQHYU28vG8PldEXQ==}
+  proyecto-viviana-ui@0.1.3:
+    resolution: {integrity: sha512-HTeqfHZT7Tyk29ZBkmKK4DoW9UiHX/7aHJNT+gT0/k8AKtWYUOlhi7pIJX3yae6fVwoabM+M7av9GywdVjpKAQ==}
     engines: {node: '>=18', pnpm: '>=9.0.0'}
     peerDependencies:
       '@solidjs/router': ^0.13.6
@@ -6085,7 +6085,7 @@ snapshots:
       '@types/node': 20.14.9
       long: 5.2.3
 
-  proyecto-viviana-ui@0.1.1(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18):
+  proyecto-viviana-ui@0.1.3(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18):
     dependencies:
       '@solidjs/router': 0.13.6(solid-js@1.8.18)
       solid-icons: 1.1.0(solid-js@1.8.18)
