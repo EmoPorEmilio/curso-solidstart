@@ -6,6 +6,10 @@ const { default: mdx } = pkg;
 export default defineConfig({
   extensions: ["mdx", "md"],
   vite: {
+
+    optimizeDeps: {
+      exclude: ['proyecto-viviana-ui']
+    },
     plugins: [
       mdx.withImports({})({
         jsx: true,
