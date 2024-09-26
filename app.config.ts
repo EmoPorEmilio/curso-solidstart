@@ -8,7 +8,7 @@ export default defineConfig({
   vite: {
 
     optimizeDeps: {
-      exclude: ['proyecto-viviana-ui']
+      exclude: ['wyvern-ui-test']
     },
     plugins: [
       mdx.withImports({})({

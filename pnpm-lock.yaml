@@ -20,9 +20,6 @@ importers:
       '@vinxi/plugin-mdx':
         specifier: ^3.7.1
         version: 3.7.1(@mdx-js/mdx@2.3.0)
-      proyecto-viviana-ui:
-        specifier: 0.1.10
-        version: 0.1.10(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18)
       solid-icons:
         specifier: ^1.1.0
         version: 1.1.0(solid-js@1.8.18)
@@ -35,6 +32,9 @@ importers:
       vinxi:
         specifier: ^0.3.14
         version: 0.3.14(@types/node@20.14.11)(ioredis@5.4.1)(terser@5.31.3)
+      wyvern-ui-test:
+        specifier: ^0.0.1
+        version: 0.0.1(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18)
     devDependencies:
       autoprefixer:
         specifier: ^10.4.19
@@ -2419,14 +2419,6 @@ packages:
   property-information@6.5.0:
     resolution: {integrity: sha512-PgTgs/BlvHxOu8QuEN7wi5A0OmXaBcHpmCSTehcs6Uuu9IkDIEo13Hy7n898RHfrQ49vKCoGeWZSaAK01nwVig==}
 
-  proyecto-viviana-ui@0.1.10:
-    resolution: {integrity: sha512-fwthh9du8A2YAXngPqDK6uYer08Bjh9kAFWkChrSRXvvv0a+wx7bRYJwwGQB2d1wP1PhaMS4alD7/mkpjjNqjQ==}
-    engines: {node: '>=18', pnpm: '>=9.0.0'}
-    peerDependencies:
-      '@solidjs/router': ^0.13.6
-      solid-icons: ^1.1.0
-      solid-js: ^1.8.17
-
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -3084,6 +3076,14 @@ packages:
 
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
+
+  wyvern-ui-test@0.0.1:
+    resolution: {integrity: sha512-lW2Bl9/AkD9VXzthI/i666Q+9Q2Vr7GVg8uYwpBpe5AGgU+/A/n5JjUnJz0irahsq8ROvJ1s6ec0gsZje1CfsA==}
+    engines: {node: '>=18', pnpm: '>=9.0.0'}
+    peerDependencies:
+      '@solidjs/router': ^0.13.6
+      solid-icons: ^1.1.0
+      solid-js: ^1.8.17
 
   y18n@5.0.8:
     resolution: {integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==}
@@ -5649,15 +5649,6 @@ snapshots:
 
   property-information@6.5.0: {}
 
-  proyecto-viviana-ui@0.1.10(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18):
-    dependencies:
-      '@solidjs/router': 0.13.6(solid-js@1.8.18)
-      solid-icons: 1.1.0(solid-js@1.8.18)
-      solid-js: 1.8.18
-      tailwindcss: 3.4.6
-    transitivePeerDependencies:
-      - ts-node
-
   queue-microtask@1.2.3: {}
 
   queue-tick@1.0.1: {}
@@ -6451,6 +6442,15 @@ snapshots:
       strip-ansi: 7.1.0
 
   wrappy@1.0.2: {}
+
+  wyvern-ui-test@0.0.1(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18):
+    dependencies:
+      '@solidjs/router': 0.13.6(solid-js@1.8.18)
+      solid-icons: 1.1.0(solid-js@1.8.18)
+      solid-js: 1.8.18
+      tailwindcss: 3.4.6
+    transitivePeerDependencies:
+      - ts-node
 
   y18n@5.0.8: {}
 

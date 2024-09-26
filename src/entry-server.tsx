@@ -1,6 +1,16 @@
 // @refresh reload
 import { createHandler, StartServer } from '@solidjs/start/server';
 
+function onMountFavicon () {
+      window.onblur = function () {
+        var link: any = document.querySelector("link[rel~='icon']");
+        link.href = '/favicon-off.png';
+      };
+      window.onfocus = function () {
+        var link: any = document.querySelector("link[rel~='icon']");
+        link.href = '/favicon-on.png';
+      };
+}
 export default createHandler(() => (
   <StartServer
     document={({ assets, children, scripts }) => (

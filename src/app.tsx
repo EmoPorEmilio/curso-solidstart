@@ -1,6 +1,6 @@
 import { Router } from '@solidjs/router';
 import { FileRoutes } from '@solidjs/start/router';
-import { Header, LateralNav } from 'proyecto-viviana-ui';
+import { Header, LateralNav } from 'wyvern-ui-test';
 import './app.css';
 import { Suspense } from 'solid-js';
 
