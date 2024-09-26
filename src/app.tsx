@@ -8,8 +8,8 @@ export default function App() {
   return (
     <Router
       root={(props) => (
-        <main class='bg-bg-100 m-0 h-screen'>
-          <Header />
+        <main class='bg-secondary-900 m-0 h-screen font-oswald'>
+          <Header first_word='WYE' second_word='DOCS' />
           <div class='flex h-full bg-bg-100'>
             <LateralNav />
             <Suspense>{props.children}</Suspense>

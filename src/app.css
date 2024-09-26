@@ -7,11 +7,6 @@ main {
   margin: 0 auto;
 }
 
-:root {
-  --font-jost: 'Jost';
-  --font-sen: 'Sen';
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

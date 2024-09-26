@@ -11,7 +11,7 @@
     "@solidjs/router": "^0.13.6",
     "@solidjs/start": "^1.0.6",
     "@vinxi/plugin-mdx": "^3.7.1",
-    "wyvern-ui-test": "^0.0.1",
+    "wyvern-ui-test": "^0.0.7",
     "solid-icons": "^1.1.0",
     "solid-js": "^1.8.18",
     "solid-mdx": "^0.0.7",

@@ -33,8 +33,8 @@ importers:
         specifier: ^0.3.14
         version: 0.3.14(@types/node@20.14.11)(ioredis@5.4.1)(terser@5.31.3)
       wyvern-ui-test:
-        specifier: ^0.0.1
-        version: 0.0.1(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18)
+        specifier: ^0.0.7
+        version: 0.0.7(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18)
     devDependencies:
       autoprefixer:
         specifier: ^10.4.19
@@ -3077,8 +3077,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  wyvern-ui-test@0.0.1:
-    resolution: {integrity: sha512-lW2Bl9/AkD9VXzthI/i666Q+9Q2Vr7GVg8uYwpBpe5AGgU+/A/n5JjUnJz0irahsq8ROvJ1s6ec0gsZje1CfsA==}
+  wyvern-ui-test@0.0.7:
+    resolution: {integrity: sha512-5pfBkGQwYYRLRqz5VUKOPhdM0nTIkWX6O/jRBJwGogA3ZUHpPdx8ZR0syocAy8pyZyPsFdhFIlUkZ2T4s6UJBQ==}
     engines: {node: '>=18', pnpm: '>=9.0.0'}
     peerDependencies:
       '@solidjs/router': ^0.13.6
@@ -6443,7 +6443,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  wyvern-ui-test@0.0.1(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18):
+  wyvern-ui-test@0.0.7(@solidjs/router@0.13.6(solid-js@1.8.18))(solid-icons@1.1.0(solid-js@1.8.18))(solid-js@1.8.18):
     dependencies:
       '@solidjs/router': 0.13.6(solid-js@1.8.18)
       solid-icons: 1.1.0(solid-js@1.8.18)
